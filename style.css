@@ -1,0 +1,111 @@
+@media (max-width: 479px){
+    #formulario {
+        margin-top: 50px;
+        padding-top: 7%;
+        padding-bottom: 4%;
+        border-radius: 2%;
+        color: white;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    form{
+        grid-template-rows: auto;
+        display: grid;
+        gap: 10px;
+        max-width: fit-content;
+        margin-left: 7%;
+        margin: auto;
+    }
+    input{
+        width: 100%;
+    }
+    input, select {
+        display: block;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    #modo{
+        width: 100%;
+    }
+    button{
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        font-size: 16;
+        padding: 3%;
+    }
+    img{
+        width: 80%;
+        margin-bottom: 2%;
+    }
+}
+
+@media (min-width: 480px){
+    #formulario {
+        margin-top: 50px;
+        padding: 5%;
+        border-radius: 10px;
+        color: white;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }    
+    img{
+        width: 40%;
+        margin-bottom: 2%;
+    }
+    form{
+        grid-template-rows: auto;
+        display: grid;
+        gap: 10px;
+        max-width: fit-content;
+        margin: auto;
+    }
+    input, select {
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    #modo{
+        width: 40%;
+    }
+    button {
+        background-color: #252b79;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+}
+
+body {
+    background: linear-gradient(180deg, rgb(243, 154, 47), #252b79,rgb(26, 164, 233), #f0411d);
+    font-family: Arial, sans-serif;
+}
+header {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #252b79;
+    margin-top: 3%;
+}
+button:hover {
+    background-color: #252b79e8;
+}

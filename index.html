@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clientes</title>
+        <meta name="autor" content="Alastor@Angel@Sadgman">
+        <meta name="keywords" content="Creación de clientes, Farquina, Farmoquimica">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="data/media/ico/favicon.png" type="image/x-icon">
+        <script src="js/designer.js"></script>
+        <script src="js/script.js"></script>
+        <!--ByAlastor-->
+    </head>
+     <body>
+        <header>
+            <img src="data/media/image/logo.png" alt="">
+            <h1>Formulario Para la creación de Clientes</h1>
+        </header>
+        <section id="formulario">
+            <form action="POST" >
+                <label for="modo">
+                    Modo:
+                    <select name="modo" id="modo">
+                        <option value="Normal">Normal</option>
+                        <option value="Avanzado">Avanzado</option>
+                    </select>
+                </label>
+                <label for="rs">Razón social: 
+                    <input 
+                    type="text" 
+                    name="Razón Social" 
+                    id="rs"
+                    required
+                    >
+                </label>
+                <label for="rnc">RNC o Cédula: 
+                    <input 
+                    type="text" 
+                    name="rnc" 
+                    id="rnc"
+                    minlength="8"
+                    maxlength="11"
+                    required
+                    >
+                </label>
+                <label for="nombrePropietario">Nombre del Propietario: 
+                    <input 
+                    type="text" 
+                    name="Nombre del Propietario" 
+                    id="nombrePropietario"
+                    required
+                    >
+                </label>
+                <label for="direccion">Dirección: 
+                    <input 
+                    type="text" 
+                    name="direccion" 
+                    id="direccion"
+                    maxlength="100"
+                    required
+                    >
+                </label>
+                    <label for="direccion">Sector/Paraje: 
+                    <input 
+                    type="text" 
+                    name="sector" 
+                    id="sector"
+                    maxlength="50"
+                    required
+                    >
+                </label>
+                <label for="telefono" class="cell">Teléfono: 
+                    <input
+                    type="tel"
+                    name="Teléfono"
+                    id="telefono"
+                    minlength="3"
+                    maxlength="40"
+                    required
+                    >
+                </label>
+                <label for="celular" class="cell">Celular: 
+                    <input 
+                    type="tel" 
+                    name="Celular" 
+                    id="celular"
+                    minlength="3"
+                    maxlength="40"
+                    >
+                </label>
+                <label for="zona">Zona: 
+                    <select name="Zona" id="zona"></select>
+                </label>
+                <label for="email">
+                    Email:
+                    <input 
+                    type="email" 
+                    name="Email" 
+                    id="email"
+                    multiple
+                    >
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </body>
+</html>
