@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () =>{
             const cell = document.getElementById('celular');
             const tel = document.getElementById('telefono');
 
-            if(document.querySelector("#rnc").value.length != 9 && document.querySelector("#rnc").value.length != 11){
+            if(document.querySelector("#rnc").value.length != 9 && document.querySelector("#rnc").value.length != 11 && document.querySelector("#modo").value != "Avanzado"){
                 alert("Su RNC o cédula es invalido, por favor ingrese un RNC o cédula válido.")
                 return
             }
